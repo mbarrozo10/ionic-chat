@@ -1,0 +1,24 @@
+#b{
+    --background: #4080FF
+}
+div{
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    height: 100%;
+    ion-button{
+        height: 50%;
+        --background: #7c78b8;
+        text-align: justify;
+        font-size: 300%;
+    
+    }
+    
+}
+ion-button{
+    border-radius: 80px;
+}
+ion-toolbar{
+    --background: black;}
+
+    

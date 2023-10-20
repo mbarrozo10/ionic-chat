@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Chat</string>
+    <string name="title_activity_main">Chat</string>
+    <string name="package_name">Chat.ionic.starter</string>
+    <string name="custom_url_scheme">Chat.ionic.starter</string>
+</resources>

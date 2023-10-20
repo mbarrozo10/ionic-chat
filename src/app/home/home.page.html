@@ -1,0 +1,25 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+    <ion-button (click)="logout()">
+      <ion-icon slot="icon-only" name="log-out"></ion-icon>
+    </ion-button>
+  </ion-buttons>
+    <ion-title>Bienvenido {{usuario}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  <div class="ion-padding">
+    <ion-button routerLink="chat4a" shape="round" expand="full" >
+      PPS-4A
+    </ion-button>
+    <ion-button id="b" routerLink="chat4b" shape="round" expand="full">PPS-4B</ion-button>
+ 
+  </div>
+
+ 
+</ion-content>
+
+
